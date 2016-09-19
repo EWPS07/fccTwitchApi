@@ -1,0 +1,156 @@
+/* color scheme 
+#962715 #FFFFFF #1E1E20 #BBC3C6
+*/
+
+
+/* HTML ELEMENTS HTML ELEMENTS HTML ELEMENTS HTML ELEMENTS HTML ELEMENTS HTML ELEMENTS */
+
+body {
+  background-color: #FFFFFF;
+  font-family: 'Oswald', san-serif;
+}
+
+h1 {
+  color: #FFFFFF;
+  text-shadow: 3px 3px 3px #962715;
+  font-size: 450%;
+}
+
+h2 {
+  font-size: 200%;
+}
+
+h4 {
+  font-size: 100%;
+}
+
+main {
+  background-color: #FFFFFF;
+}
+
+a {
+  color: #962715;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 1px #962715;
+}
+a:-webkit-any-link, a:visited {
+  text-decoration: none;
+}
+
+@-webkit-keyframes blink {
+  from {
+    opacity: 1.0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+blink {
+  -webkit-animation-name: blink;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(1.0, 0.5, 0.5, 1.0);
+  -webkit-animation-duration: 1s;
+}
+
+
+/* BOOTSTRAP CLASSES BOOTSTRAP CLASSES BOOTSTRAP CLASSES BOOTSTRAP CLASSES BOOTSTRAP CLASSES */
+
+.btn-default {
+  background-color: #FFFFFF;
+  font-weight: bolder;
+  color: #962715;
+  text-shadow: 1px 1px 1px #962715;
+}
+
+
+/* CUSTOM CLASSES CUSTOM CLASSES CUSTOM CLASSES CUSTOM CLASSES CUSTOM CLASSES CUSTOM CLASSES */
+
+.logos {
+  border-color: #1E1E20;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10%;
+  max-width: 15%;
+  max-height: 15%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.headerWell {
+  margin-right: 7%;
+  margin-left: 7%;
+  background-color: #1E1E20;
+  margin-bottom: 0%;
+}
+
+.mainWell {
+  margin-right: 7%;
+  margin-left: 7%;
+  background-color: #1E1E20;
+  margin-top: %;
+}
+
+.footerWell {
+  background-color: #1E1E20;
+  font-size: 150%;
+  color: #FFFFFF;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.streamWell {
+  background-color: #BBC3C6;
+  border: solid 2px #1E1E20;
+  padding: 3%;
+  font-size: 150%;
+}
+
+.streamInfo {
+  background-color: #FFFFFF;
+  border: double 4px #962715;
+  padding: 5%;
+  box-shadow: 10px 5px 5px #1E1E20;
+  border-radius: 1%;
+}
+
+.buttonsWell {
+  padding: none;
+  margin-left: 7%;
+  margin-right: 7%;
+  background-color: #962715;
+}
+
+
+/* CUSTOM ID'S CUSTOM ID'S CUSTOM ID'S CUSTOM ID'S CUSTOM ID'S CUSTOM ID'S CUSTOM ID'S CUSTOM ID'S */
+
+#currentStreamsButton,
+#codeChannelsButton,
+#refresh{
+  color: #1E1E20;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin-top: 0%;
+  border: solid 2px #1E1E20;
+  font-size: 200%;
+}
+#currentStreamsButton:visited,
+#codeChannelsButton:visited,
+#currentStreamsButton:hover,
+#codeChannelsButton:hover,
+#refresh:visited,
+#refresh:hover {
+  background-color: #BBC3C6;
+}
+
+#currentStreamsButton:focus,
+#codeChannelsButton:focus,
+#refresh:focus
+{
+  border: solid 2px #FFFFFF;
+}
